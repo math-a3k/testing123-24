@@ -21,9 +21,6 @@ class User(AbstractUser):
     name = models.CharField(null=True,blank=True,max_length=255,)
     asss = models.BigIntegerField(null=True,blank=True,)
     fdsfa = models.BigIntegerField(null=True,blank=True,)
-    rewrwe = models.BigIntegerField(null=True,blank=True,)
-    rerere = models.BigIntegerField(null=True,blank=True,)
-    ffeeww = models.BigIntegerField(null=True,blank=True,)
     eeaaqwq = models.BigIntegerField(null=True,blank=True,)
     xzxzxx = models.BigIntegerField(null=True,blank=True,)
     def get_absolute_url(self):
