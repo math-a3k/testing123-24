@@ -25,6 +25,6 @@ class User(AbstractUser):
     rerere = models.BigIntegerField(null=True,blank=True,)
     ffeeww = models.BigIntegerField(null=True,blank=True,)
     eeaaqwq = models.BigIntegerField(null=True,blank=True,)
-    oooo = models.BigIntegerField(null=True,blank=True,)
+    xzxzxx = models.BigIntegerField(null=True,blank=True,)
     def get_absolute_url(self):
         return reverse('users:detail', kwargs={'username': self.username})
